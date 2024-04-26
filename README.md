@@ -54,8 +54,3 @@ Step3:
     By using a Drop down select box we can get a answer for the 10 queries which is in problem statment.
 Step4:
     By using a side select button we can visulaize the local database tables in Streamlit.
-
-
-Link
-
-http://localhost:8501/#youtube-data-harvesting-and-warehousing

@@ -61,7 +61,7 @@ def channel_data (channel_id):
 
 def get_video_ids(channel_id):
 
-     request1=youtube.channels().list(part='contentDetails',id=channel_id)
+     request1=youtube.channels().list(part='contentDetails')
      response=request1.execute()
 
      playlist_id=response['items'][0]['contentDetails']['relatedPlaylists']['uploads']
